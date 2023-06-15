@@ -61,9 +61,17 @@ formatteed          text.
         Box 564, Disneyland<br>
         USA
     </address>
-
-
-    
+    <P id = "jsc"></P>
+    <button onclick="changeStyles()">Click Here to change syle of Address Element</button>
+    <script>
+        document.getElementById("jsc").innerHTML = "This is first script in page";
+        function changeStyles(){
+            document.getElementById("E1").style.fontSize = "25px";
+            document.getElementById("E1").style.color = "black";
+            document.getElementById("E1").style.backgroundColor = "white";
+        }
+    </script>
+    <noscript>Sorry, you have disabled Javascript!</noscript>
 
 </BODY>
 </HTML>
