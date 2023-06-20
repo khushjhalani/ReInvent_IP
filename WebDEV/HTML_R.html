@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<HTML lang="en">
+    <HEAD>
+        <TITLE>Responsive WebSite</TITLE>
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+
+        <STYLE>
+            * {
+              box-sizing: border-box;
+            }
+            
+            .left {
+              background-color: #2196F3;
+              padding: 20px;
+              float: left;
+              width: 20%; /* The width is 20%, by default */
+            }
+            
+            .main {
+              background-color: #f1f1f1;
+              padding: 20px;
+              float: left;
+              width: 60%; /* The width is 60%, by default */
+            }
+            
+            .right {
+              background-color: #04AA6D;
+              padding: 20px;
+              float: left;
+              width: 20%; /* The width is 20%, by default */
+            }
+            img{max-width:100%;height:auto}
+
+            @media screen and (max-width:1000px){
+                .left, .main, .right{
+                    width:100%;
+                }
+            }
+
+        </STYLE>
+    </HEAD>
+    <BODY>
+        <PICTURE>
+            <source srcset="images/workplace.jpg" media="(max-width:600px)">
+            <source srcset="images/a.jfif" media="(max-width:900px)">
+            <source srcset="images/flower.jpg">
+            <img>
+        </PICTURE>
+        <H1 style="font-size:5vw;">This is a responsive text.</H1>
+        <br>
+        
+        <div class="left">
+        <p>Left Menu</p>
+        </div>
+
+        <div class="main">
+        <p>Main Content</p>
+        </div>
+
+        <div class="right">
+        <p>Right Content</p>
+        </div>
+
+    </BODY>
+
+</HTML>

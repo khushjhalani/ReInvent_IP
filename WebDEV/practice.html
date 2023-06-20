@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>HTML Revision</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#basic-tags">Basic Tags</a></li>
+            <li><a href="#style-links">Style and Links</a></li>
+            <li><a href="#responsive-design">Responsive Web Design</a></li>
+            <li><a href="#semantics">Semantics</a></li>
+            <li><a href="#forms">Forms</a></li>
+            <li><a href="#practice">Practice</a></li>
+        </ul>
+    </nav>
+
+    <div id="basic-tags" class="content-section">
+        <h2>Basic Tags</h2>
+        <p id="p1">This is a paragraph.</p>
+        <p><a href="https://www.example.com">Link</a></p>
+        <img src="images/a.jfif" alt="Image">
+        <br>
+        <b>Bold text</b>
+        <br>
+        <span style="color: red;">Inline CSS</span>
+    </div>
+
+    <div id="style-links" class="content-section">
+        <h2>Style and Links</h2>
+        <style>
+            .styled-link {
+                color: blue;
+                text-decoration: underline;
+            }
+        </style>
+        <p>This is a styled <a class="styled-link" href="#">link</a>.</p>
+        <p><!-- This is a comment --></p>
+        <p><font color="green">Colored text</font></p>
+        <img src="images/htm_imgm.png" alt="Image" usemap="#map">
+        <map name="map">
+            <area shape="rect" coords="0,0,290,95" href="https://www.w3schools.com/html/html_elements.asp" alt="HTML Elements">
+            <area shape="rect" coords="0,95,290,190" href="#p1" alt="Paragraph">
+        </map>
+    </div>
+
+    <div id="responsive-design" class="content-section">
+        <h2>Responsive Web Design</h2>
+        <picture>
+            <source srcset="images/a.jfif" media="(max-width: 600px)">
+            <source srcset="images/flower.jpg" media="(min-width: 601px)">
+            <img src="images/workplace.jpg" alt="Responsive Image">
+        </picture>
+    </div>
+
+    <div id="semantics" class="content-section">
+        <h2>Semantics</h2>
+        <header>
+            <h3>Header</h3>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#">Nav Link 1</a></li>
+                <li><a href="#">Nav Link 2</a></li>
+            </ul>
+        </nav>
+        <div>
+            <h3>Content Section</h3>
+            <p>This is some content.</p>
+        </div>
+        <aside>
+            <h3>Aside</h3>
+            <p>This is some additional information.</p>
+        </aside>
+        <footer>
+            <h3>Footer</h3>
+            <p>&copy; 2023 HTML Website</p>
+        </footer>
+    </div>
+
+    <div id="forms" class="content-section">
+        <h2>Forms</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>

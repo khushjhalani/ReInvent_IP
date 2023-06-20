@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<HEAD>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="description" content="Learning HTML and CSS">
+    <meta name="author" content="Khush Jhalani">
+    <!-- Makes a page refresh every 30 seconds -->
+    <meta http-equiv="refresh" content="30">
+    <!-- View makes website dynamic to different screen dimensions -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BASE tag defines a base url and target for all other relative URLs on the page -->
+    <base href="www.gogole.com" target="_blank"> 
+
+    <TITLE>BASICS</TITLE>
+    <style>
+        body{background-color: lightblue; color: purple;}
+        a:link{color:red;}
+        a:visited{color:gray;}
+        a:hover{color:purple;}
+        a:active{color:yellow;}
+        /* width or max-width in % makes img responsive */
+        img{max-width:100%;height:auto;}
+    </style>
+</HEAD>
+<BODY>
+    <H1 style="background-color: antiquewhite; color: coral; font-family: 'Courier New'; font-size: 300%; text-align: center;">My First Heading</H1><br>
+    <P title="extra info for this section">My first paragraph.<br><A href="#E1">This link takes you to end of page</A></P><hr>
+    <IMG src="images/a.jfif" alt="this is an alt image" width="100" height="100">
+    <A href="https://www.google.com">Google</A>
+    
+    <pre>
+This is 
+a pre-
+formatteed          text.
+    <br><br>
+    <img src="images/workplace.jpg" alt="Workplace" usemap="#workmap" style="width:400px; height:379px;">
+    <!-- This is a image map -->
+    <map name="workmap">
+    <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+    <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm" onclick="alert('You clicked on the phone.');">
+    <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+    </map>
+    <!-- This was an image map -->
+    <br><br>
+    <P>Right floating image
+    <IMG src="images/a.jfif" style="width:42px; height:42px; float:right"></P>
+    <br><br><br>
+    </pre>
+    <p>This is an example of <b>bold text</b> and <strong>important text</strong>. Also, we have <i>italic text</i> and <em>emphasized text</em>. Furthermore, there is <mark>marked text</mark> and <small>smaller text</small>. Additionally, we have <del>deleted text</del> and <ins>inserted text</ins>. Moreover, we have <sub>subscript text</sub> and <sup>superscript text</sup>.</p>
+    <P>QUOTES</P>
+    <blockquote cite="http://www.worldwildlife.org/who/index.html" style="border:2px solid violet">
+        For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live.
+    </blockquote>
+    <p><abbr title="World Wide Fund">WWF</abbr>'s goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+    <p><cite>The Scream</cite> by Edvard Munch. <bdo dir="rtl">Painted</bdo> in 1893.</p>
+    <address id="E1" style="border:5px green solid;">
+        Written by John Doe.<br>
+        Visit us at:<br>
+        Example.com<br>
+        Box 564, Disneyland<br>
+        USA
+    </address>
+    <P id = "jsc"></P>
+    <button onclick="changeStyles()">Click Here to change syle of Address Element</button>
+    <script>
+        document.getElementById("jsc").innerHTML = "This is first script in page";
+        function changeStyles(){
+            document.getElementById("E1").style.fontSize = "25px";
+            document.getElementById("E1").style.color = "black";
+            document.getElementById("E1").style.backgroundColor = "white";
+        }
+    </script>
+    <noscript>Sorry, you have disabled Javascript!</noscript>
+
+</BODY>
+</HTML>
