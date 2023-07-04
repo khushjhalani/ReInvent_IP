@@ -1,0 +1,151 @@
+{
+   "TCU_gen": "IVI-IVC",
+   "Platform": "Gamma",
+   "VIN": "5N1BT3CB0PC795389",
+   "CanGen": "C1A-HS",
+   "Region": "NNA",
+   "Source": "vNext",
+   "Version": "v2.6.3",
+   "DataCategory": "Probe",
+   "DeviceValue": {},
+   "EventOccurTimeStamp": "1687459910000",
+   "EventArrivalTimeStamp": "1687459933414",
+   "TraceId": "vNext_65e014b8-8ef4-4c58-90ea-a830e839f41e:1687460272062",
+   "CountryofSale": "US",
+   "contexts": [
+      {
+         "ContextType": "Trip",
+         "TimeStampStartContext": "2023-06-22T17:44:55Z",
+         "TimeStampEndContext": "2023-06-22T18:06:53Z"
+      }
+   ],
+   "ignitionOn": {
+      "timeStamp": "2023-06-22T17:44:55Z",
+      "LocationLatitude": "32.92538835",
+      "LocationLongitude": "-96.76992855",
+      "LongitudeAtStart": "-96.76992855",
+      "TotalDistanceStartTrip": "36.34",
+      "LatitudeAtStart": "32.92538835"
+   },
+   "ignitionOff": {
+      "timeStamp": "2023-06-22T18:06:53Z",
+      "LocationLatitude": "32.9161372222222",
+      "LocationLongitude": "-96.9538930555556",
+      "LongitudeAtEnd": "-96.9538930555556",
+      "LatitudeAtEnd": "32.9161372222222",
+      "TotalDistanceEndTrip": "54.24"
+   },
+   "interimData": [
+      {
+         "LocationLatitude": "32.92596861111111",
+         "LocationLongitude": "-96.80555305555555"
+      },
+      {
+         "LocationLatitude": "32.92606833333333",
+         "LocationLongitude": "-96.8128875"
+      },
+      {
+         "LocationLatitude": "32.92618944444444",
+         "LocationLongitude": "-96.82116166666667"
+      },
+      {
+         "LocationLatitude": "32.92603777777777",
+         "LocationLongitude": "-96.83020833333332"
+      },
+      {
+         "LocationLatitude": "32.92507722222222",
+         "LocationLongitude": "-96.83927916666664"
+      },
+      {
+         "LocationLatitude": "32.92153888888889",
+         "LocationLongitude": "-96.84799388888888"
+      },
+      {
+         "LocationLatitude": "32.918658611111109",
+         "LocationLongitude": "-96.85488138888889"
+      },
+      {
+         "LocationLatitude": "32.91679277777777",
+         "LocationLongitude": "-96.85947777777777"
+      },
+      {
+         "LocationLatitude": "32.9152075",
+         "LocationLongitude": "-96.86563388888888"
+      },
+      {
+         "LocationLatitude": "32.91302777777778",
+         "LocationLongitude": "-96.87416194444445"
+      },
+      {
+         "LocationLatitude": "32.9118975",
+         "LocationLongitude": "-96.87954833333332"
+      },
+      {
+         "LocationLatitude": "32.91099805555555",
+         "LocationLongitude": "-96.88289944444445"
+      },
+      {
+         "LocationLatitude": "32.91010583333333",
+         "LocationLongitude": "-96.88665944444445"
+      },
+      {
+         "LocationLatitude": "32.909081666666669",
+         "LocationLongitude": "-96.89161416666669"
+      },
+      {
+         "LocationLatitude": "32.90808916666666",
+         "LocationLongitude": "-96.89899166666669"
+      },
+      {
+         "LocationLatitude": "32.90787805555556",
+         "LocationLongitude": "-96.9083975"
+      },
+      {
+         "LocationLatitude": "32.9077325",
+         "LocationLongitude": "-96.91926916666665"
+      },
+      {
+         "LocationLatitude": "32.90914583333333",
+         "LocationLongitude": "-96.92975"
+      },
+      {
+         "LocationLatitude": "32.911294166666667",
+         "LocationLongitude": "-96.93930194444445"
+      },
+      {
+         "LocationLatitude": "32.91386361111111",
+         "LocationLongitude": "-96.94821472222225"
+      },
+      {
+         "LocationLatitude": "32.915464166666669",
+         "LocationLongitude": "-96.95417027777777"
+      },
+      {
+         "LocationLatitude": "32.916174166666667",
+         "LocationLongitude": "-96.95393444444444"
+      },
+      {
+         "LocationLatitude": "32.91621166666666",
+         "LocationLongitude": "-96.95396861111111"
+      },
+      {
+         "LocationLatitude": "32.91613722222222",
+         "LocationLongitude": "-96.95389305555556"
+      },
+      {},
+      {
+         "Frequency3000RPM_Tripdata": "11",
+         "Frequency4000_RPM_Tripdata": "0",
+         "Frequency6000_RPM_Tripdata": "0",
+         "Frequency5000_RPM_Tripdata": "0",
+         "IdlingTimeInTrip": "263",
+         "HeadLightON_TimeInTrip": "42",
+         "SeatBeltSecondRowCenter": "1",
+         "SeatBeltSecondRowRight": "1",
+         "SeatBeltSecondRowLeft": "1",
+         "SeatBeltFirstRowPassenger": "1",
+         "SeatBeltFirstRowDriver": "2"
+      },
+      {}
+   ]
+}
