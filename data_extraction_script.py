@@ -1,6 +1,7 @@
 import json
 import argparse as ap
 
+fields = []
 
 def get_arguments():
     parser=ap.ArgumentParser()
@@ -10,7 +11,11 @@ def get_arguments():
     inputs = parser.parse_args()
     return inputs 
 
-def filter(file_name,filter_fields,output_file):
+def filt(dic):
+    global fields
+    return (dic[0] in fields)
+
+def filter_data(file_name,filter_fields,output_file):
     #Append .json if extension not given
     if not (file_name.endswith(".json") or file_name.endswith(".jsonl")):
         file_name+=".json"
@@ -24,15 +29,14 @@ def filter(file_name,filter_fields,output_file):
         filter_fields+=".txt"
         
     with open(filter_fields,'r') as file:
+        global fields
         fields = file.read().splitlines()
         
         
     filtered_data = list()
     for dictionary in data['interimData']:
         temp = {}
-        for key,value in dictionary.items():
-            if key in fields:
-                temp.update({key:value})            
+        temp=dict(filter(filt,dictionary.items()))             
         filtered_data.append(temp)
         
     data['interimData'] = filtered_data
@@ -44,5 +48,5 @@ def filter(file_name,filter_fields,output_file):
 
 if __name__=="__main__":
     args = get_arguments()
-    filter(args.data,args.filter,args.output)
+    filter_data(args.data,args.filter,args.output)
     
