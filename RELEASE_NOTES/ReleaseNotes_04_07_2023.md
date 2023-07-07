@@ -1,3 +1,4 @@
+# Task progress
 Created the file "data_extraction_script.py" with reworked code to make it dynamic and readable.
 This python code takes three command line arguments i.e. data file(json), filter fields file(text file), and output filename(OPTIONAL)
 
