@@ -1,0 +1,320 @@
+{
+   "TCU_gen": "IVI-IVC",
+   "Platform": "Gamma",
+   "VIN": "5N1BT3CB0PC795389",
+   "CanGen": "C1A-HS",
+   "Region": "NNA",
+   "Source": "vNext",
+   "Version": "v2.6.3",
+   "DataCategory": "Probe",
+   "DeviceValue": {},
+   "EventOccurTimeStamp": "1687459910000",
+   "EventArrivalTimeStamp": "1687459933414",
+   "TraceId": "vNext_65e014b8-8ef4-4c58-90ea-a830e839f41e:1687460272062",
+   "CountryofSale": "US",
+   "contexts": [
+      {
+         "ContextType": "Trip",
+         "TimeStampStartContext": "2023-06-22T17:44:55Z",
+         "TimeStampEndContext": "2023-06-22T18:06:53Z"
+      }
+   ],
+   "ignitionOn": {
+      "timeStamp": "2023-06-22T17:44:55Z",
+      "LocationLatitude": "32.92538835",
+      "AirTempStartingTimeUnit": "1",
+      "StatusDistanceTotalizerComputed": "36.34",
+      "LocationLongitude": "-96.76992855",
+      "StatusDistanceTotalizer": "36.34",
+      "AirTempStartingTimeValue": "93",
+      "LocationSource": "0",
+      "LocationSourceAtStart": "0",
+      "LongitudeAtStart": "-96.76992855",
+      "TotalDistanceStartTrip": "36.34",
+      "LatitudeAtStart": "32.92538835"
+   },
+   "ignitionOff": {
+      "timeStamp": "2023-06-22T18:06:53Z",
+      "LocationLatitude": "32.9161372222222",
+      "LocationSourceAtEnd": "1",
+      "RapidDecelerationAccelerationLatitude1": "32.925884",
+      "RapidDecelerationAccelerationLatitude2": "32.91217",
+      "RapidDecelerationAccelerationLatitude3": "32.915188",
+      "ECOAverageDistanceForFuelEconomy": "21.5",
+      "StatusWheelPressureRearAxle": "210",
+      "StatusWheelStateFrontLeft": "0",
+      "StatusWheelPressureRearLeft": "2400",
+      "StatusWheelStateRearRight": "0",
+      "RapidDecelerationAccelerationSpeedatStart1": "59.3",
+      "RapidDecelerationAccelerationSpeedatStart2": "43.8",
+      "RapidDecelerationAccelerationSpeedatStart3": "40.6",
+      "AirTempDrivingStartupUnitICE": "1",
+      "StatusBrakeLowFluidLevel": "1",
+      "RapidDecelerationAccelerationMaximizeSpeedDeceleration3": "-0.30591485",
+      "RapidDecelerationAccelerationMaximizeSpeedDeceleration2": "-0.40505394",
+      "RapidDecelerationAccelerationMaximizeSpeedDeceleration1": "-0.38239357",
+      "MapVersion": "17330_8_8",
+      "OilPressureWarning": "0",
+      "ExcessiveIdlingElapsedTime1": "0",
+      "MaintenanceParticulateFilterFailureWarning": "0",
+      "EcoCruiseScore": "0",
+      "StatusWheelPressureRearRight": "2310",
+      "GforceAforceAcceleration": "0",
+      "StatusMIL_LampRequest": "0",
+      "RapidDecelerationAccelerationLongitude1": "-96.80444",
+      "RapidDecelerationAccelerationLongitude2": "-96.87849",
+      "RapidDecelerationAccelerationLongitude3": "-96.9538",
+      "StatusWheelStateFrontRight": "0",
+      "FuelGaugeIndicator": "0",
+      "StatusDistanceTotalizerComputed": "54.24",
+      "LocationLongitude": "-96.9538930555556",
+      "EcoEcoScore": "0",
+      "StatusDistanceTotalizer": "54.24",
+      "RapidDecelerationAccelerationTimeStamp3": "6/22/2023 6:04:48 PM",
+      "EcoSlowdownScore": "0",
+      "RapidDecelerationAccelerationTimeStamp1": "6/22/2023 5:54:44 PM",
+      "RapidDecelerationAccelerationTimeStamp2": "6/22/2023 5:59:41 PM",
+      "ExcessiveIdlingTimeStamp1": "1/1/1970 12:00:00 AM",
+      "FuelConsumptionDistanceToEmptyTank": "153",
+      "StatusWheelStateRearLeft": "0",
+      "EcoStartScore": "0",
+      "StatusOilPressureSwitch": "0",
+      "StatusWheelPressureFrontRight": "2460",
+      "GforceDforceDeceleration": "0",
+      "LongitudeAtEnd": "-96.9538930555556",
+      "StatusWheelPressureFrontAxle": "230",
+      "LatitudeAtEnd": "32.9161372222222",
+      "FuelLowLevel": "0",
+      "TotalDistanceEndTrip": "54.24",
+      "LocationSource": "1",
+      "ESCBrakingFailureStatus": "0",
+      "StatusWheelPressureFrontLeft": "2430",
+      "EngineCoolantTemp": "83",
+      "AirTempDrivingStartupValueICE": "93",
+      "GEEBatteryVoltage": "14.22",
+      "ESCABSMalfunction": "0"
+   },
+   "tripData": {
+      "timeStamp": "2023-06-22T18:06:53Z",
+      "StopTripTimestamp": "6/22/2023 6:06:53 PM",
+      "TripMaxWheelPressureRearLeft": "2400",
+      "B_RangeFrequencyInTrip": "0",
+      "StartTripTimestamp": "6/22/2023 5:44:55 PM",
+      "Frequency3000RPM_Tripdata": "11",
+      "Status_Warning_Lane": "0",
+      "FuelInjectionQuantityFuelConsumption": "1604320",
+      "Frequency4000_RPM_Tripdata": "0",
+      "DurationPositionLightsOn": "0",
+      "ECO_ModeMileageInTrip": "17.88",
+      "UseTimeOfAirConditionInTripGASFuelSystem": "1310",
+      "IdlingTimeInTrip": "263",
+      "TripMaxWheelPressureRearRight": "2310",
+      "HeadLightON_TimeInTrip": "42",
+      "DurationABS_Triggered": "0",
+      "MileageCoveredInTrip": "17.88",
+      "Frequency6000_RPM_Tripdata": "0",
+      "DurationFrontFogLightsOn": "0",
+      "TripMaxEngineCoolantTemp": "88",
+      "Target_Forward": "0",
+      "TripMaxWheelPressureFrontLeft": "2430",
+      "ACC_DrivingTimeInTrip": "1318",
+      "TripMaxWheelPressureFrontRight": "2490",
+      "DurationDRL_OnTrip": "1273",
+      "Frequency5000_RPM_Tripdata": "0"
+   },
+   "interimData": [
+      {
+         "MaintenanceParticulateFilterFailureWarning": "0",
+         "GforceAforceAcceleration": "0.15578997",
+         "AcceleratorPedalOpeningRatio": "35.125",
+         "StatusDistanceTotalizerComputed": "39.79",
+         "GforceDforceDeceleration": "0",
+         "GEEBatteryVoltage": "14.22"
+      },
+      {
+         "MaintenanceParticulateFilterFailureWarning": "0",
+         "GforceAforceAcceleration": "0",
+         "AcceleratorPedalOpeningRatio": "0",
+         "StatusDistanceTotalizerComputed": "40.5",
+         "GforceDforceDeceleration": "0.053818356",
+         "GEEBatteryVoltage": "14.22"
+      },
+      {
+         "MaintenanceParticulateFilterFailureWarning": "0",
+         "GforceAforceAcceleration": "0.048153266",
+         "AcceleratorPedalOpeningRatio": "0",
+         "StatusDistanceTotalizerComputed": "41.28",
+         "GforceDforceDeceleration": "0",
+         "GEEBatteryVoltage": "14.22"
+      },
+      {
+         "MaintenanceParticulateFilterFailureWarning": "0",
+         "GforceAforceAcceleration": "0",
+         "AcceleratorPedalOpeningRatio": "29.75",
+         "StatusDistanceTotalizerComputed": "42.1",
+         "GforceDforceDeceleration": "0",
+         "GEEBatteryVoltage": "14.22"
+      },
+      {
+         "MaintenanceParticulateFilterFailureWarning": "0",
+         "GforceAforceAcceleration": "0.04532072",
+         "AcceleratorPedalOpeningRatio": "0",
+         "StatusDistanceTotalizerComputed": "42.99",
+         "GforceDforceDeceleration": "0",
+         "GEEBatteryVoltage": "14.22"
+      },
+      {
+         "MaintenanceParticulateFilterFailureWarning": "0",
+         "GforceAforceAcceleration": "0",
+         "AcceleratorPedalOpeningRatio": "0",
+         "StatusDistanceTotalizerComputed": "43.88",
+         "GforceDforceDeceleration": "0.11896689",
+         "GEEBatteryVoltage": "14.52"
+      },
+      {
+         "MaintenanceParticulateFilterFailureWarning": "0",
+         "GforceAforceAcceleration": "0",
+         "AcceleratorPedalOpeningRatio": "0",
+         "StatusDistanceTotalizerComputed": "44.59",
+         "GforceDforceDeceleration": "0.12463198",
+         "GEEBatteryVoltage": "14.46"
+      },
+      {
+         "MaintenanceParticulateFilterFailureWarning": "0",
+         "GforceAforceAcceleration": "0.13596216",
+         "AcceleratorPedalOpeningRatio": "31.125",
+         "StatusDistanceTotalizerComputed": "45.06",
+         "GforceDforceDeceleration": "0",
+         "GEEBatteryVoltage": "14.22"
+      },
+      {
+         "MaintenanceParticulateFilterFailureWarning": "0",
+         "GforceAforceAcceleration": "0.05098581",
+         "AcceleratorPedalOpeningRatio": "26.75",
+         "StatusDistanceTotalizerComputed": "45.67",
+         "GforceDforceDeceleration": "0",
+         "GEEBatteryVoltage": "14.22"
+      },
+      {
+         "MaintenanceParticulateFilterFailureWarning": "0",
+         "GforceAforceAcceleration": "0",
+         "AcceleratorPedalOpeningRatio": "0",
+         "StatusDistanceTotalizerComputed": "46.52",
+         "GforceDforceDeceleration": "0.014162725",
+         "GEEBatteryVoltage": "14.52"
+      },
+      {
+         "MaintenanceParticulateFilterFailureWarning": "0",
+         "GforceAforceAcceleration": "0.093473986",
+         "AcceleratorPedalOpeningRatio": "16.125",
+         "StatusDistanceTotalizerComputed": "46.99",
+         "GforceDforceDeceleration": "0",
+         "GEEBatteryVoltage": "14.22"
+      },
+      {
+         "MaintenanceParticulateFilterFailureWarning": "0",
+         "GforceAforceAcceleration": "0",
+         "AcceleratorPedalOpeningRatio": "0",
+         "StatusDistanceTotalizerComputed": "47.33",
+         "GforceDforceDeceleration": "0.01699527",
+         "GEEBatteryVoltage": "14.52"
+      },
+      {
+         "MaintenanceParticulateFilterFailureWarning": "0",
+         "GforceAforceAcceleration": "0.07647871",
+         "AcceleratorPedalOpeningRatio": "22.625",
+         "StatusDistanceTotalizerComputed": "47.71",
+         "GforceDforceDeceleration": "0",
+         "GEEBatteryVoltage": "14.22"
+      },
+      {
+         "MaintenanceParticulateFilterFailureWarning": "0",
+         "GforceAforceAcceleration": "0.05098581",
+         "AcceleratorPedalOpeningRatio": "30.625",
+         "StatusDistanceTotalizerComputed": "48.18",
+         "GforceDforceDeceleration": "0",
+         "GEEBatteryVoltage": "14.22"
+      },
+      {
+         "MaintenanceParticulateFilterFailureWarning": "0",
+         "GforceAforceAcceleration": "0.036823086",
+         "AcceleratorPedalOpeningRatio": "25.5",
+         "StatusDistanceTotalizerComputed": "48.9",
+         "GforceDforceDeceleration": "0",
+         "GEEBatteryVoltage": "14.22"
+      },
+      {
+         "MaintenanceParticulateFilterFailureWarning": "0",
+         "GforceAforceAcceleration": "0.025492905",
+         "AcceleratorPedalOpeningRatio": "3.625",
+         "StatusDistanceTotalizerComputed": "49.8",
+         "GforceDforceDeceleration": "0",
+         "GEEBatteryVoltage": "14.22"
+      },
+      {
+         "MaintenanceParticulateFilterFailureWarning": "0",
+         "GforceAforceAcceleration": "0",
+         "AcceleratorPedalOpeningRatio": "0",
+         "StatusDistanceTotalizerComputed": "50.81",
+         "GforceDforceDeceleration": "0.06798108",
+         "GEEBatteryVoltage": "14.52"
+      },
+      {
+         "MaintenanceParticulateFilterFailureWarning": "0",
+         "GforceAforceAcceleration": "0",
+         "AcceleratorPedalOpeningRatio": "8.375",
+         "StatusDistanceTotalizerComputed": "51.81",
+         "GforceDforceDeceleration": "0.014162725",
+         "GEEBatteryVoltage": "14.22"
+      },
+      {
+         "MaintenanceParticulateFilterFailureWarning": "0",
+         "GforceAforceAcceleration": "0.008497635",
+         "AcceleratorPedalOpeningRatio": "21.625",
+         "StatusDistanceTotalizerComputed": "52.72",
+         "GforceDforceDeceleration": "0",
+         "GEEBatteryVoltage": "14.22"
+      },
+      {
+         "MaintenanceParticulateFilterFailureWarning": "0",
+         "GforceAforceAcceleration": "0",
+         "AcceleratorPedalOpeningRatio": "16",
+         "StatusDistanceTotalizerComputed": "53.59",
+         "GforceDforceDeceleration": "0.008497635",
+         "GEEBatteryVoltage": "14.22"
+      },
+      {
+         "MaintenanceParticulateFilterFailureWarning": "0",
+         "GforceAforceAcceleration": "0.06798108",
+         "AcceleratorPedalOpeningRatio": "0",
+         "StatusDistanceTotalizerComputed": "54.16",
+         "GforceDforceDeceleration": "0",
+         "GEEBatteryVoltage": "14.22"
+      },
+      {
+         "MaintenanceParticulateFilterFailureWarning": "0",
+         "GforceAforceAcceleration": "0",
+         "AcceleratorPedalOpeningRatio": "0",
+         "StatusDistanceTotalizerComputed": "54.23",
+         "GforceDforceDeceleration": "0.04532072",
+         "GEEBatteryVoltage": "14.22"
+      },
+      {
+         "MaintenanceParticulateFilterFailureWarning": "0",
+         "GforceAforceAcceleration": "0.031157995",
+         "AcceleratorPedalOpeningRatio": "0",
+         "StatusDistanceTotalizerComputed": "54.24",
+         "GforceDforceDeceleration": "0",
+         "GEEBatteryVoltage": "14.22"
+      },
+      {
+         "MaintenanceParticulateFilterFailureWarning": "0",
+         "GforceAforceAcceleration": "0",
+         "AcceleratorPedalOpeningRatio": "0",
+         "StatusDistanceTotalizerComputed": "54.24",
+         "GforceDforceDeceleration": "0",
+         "GEEBatteryVoltage": "14.28"
+      },
+      {}
+   ]
+}

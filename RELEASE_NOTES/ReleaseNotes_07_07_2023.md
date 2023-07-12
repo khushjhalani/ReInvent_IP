@@ -1,5 +1,5 @@
 # Task Progress
-Created a file "dp_and_vh_fields.txt" ehich contains all the required fields to filter data seperated by a newline character
+Created a file "dp_and_vh_fields.txt" which contains all the required fields to filter data separated by a newline character
 Used the script "data_extraction_script.py" to filter the data
 
 # INPUT FILES 
