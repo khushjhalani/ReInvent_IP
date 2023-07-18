@@ -10,6 +10,6 @@ Then stop count was counted by comparing and counting the continuing timestamps.
 
 20230706153517_JOURNEY_5N1BT3CB0PC795389_20230706154047_idling1.jsonl.
 
-# Output
+# Output files
 
-dictionary excessiveIdling
+idling_details.txt
